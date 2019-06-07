@@ -1,0 +1,116 @@
+.goods {
+  width: 100%;
+}
+
+
+.goodsWrap {
+  width: 1170px;
+  margin: 0 auto;
+  position: relative;
+
+}
+.titleGoods{
+  display: flex;
+  justify-content: space-around;
+padding: 30px 0 0 0;
+  h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+  }
+}
+.itemWrap {
+  width: 1170px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  position: relative;
+overflow: hidden;
+  margin: 30px 0 0 0;
+  div {
+    position: absolute;
+    width: 370px;
+    height: 100%;
+    font-size: 60px;
+    text-align: center;
+    background: #f4f5f7;
+    border-radius: 20px;
+    img{
+      width: 370px;
+      height: 250px;
+      border-radius: 20px 20px 0 0;
+    }
+    p{
+      height: 105px;
+      overflow: hidden;
+      margin: 10px 0 0 0;
+      font-size: 18px;
+    }
+  }
+}
+#prevItemINGoods{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 6;
+}
+#prevItemINGoods:hover{
+  cursor: pointer;
+}
+#nextItemINGoods{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 6;
+}
+#nextItemINGoods:hover{
+  cursor: pointer;
+}
+.item1 {
+  left: 0;
+}
+.item2 {
+  left: 400px;
+}
+
+.item3 {
+  left: 800px;
+}
+
+.item4 {
+  left: 1170px;
+}
+
+.item5 {
+  left: 1170px;
+}
+
+.item6 {
+  left: 1170px;
+}
+
+.bigSizeGood{
+  width: 1170px;
+  height: 100%;
+  background: rgba(0,0,0,0.9);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  img{
+    width: 50%;
+    height: 80%;
+  }
+  p{
+    width: 40%;
+    color: white;
+  }
+}
