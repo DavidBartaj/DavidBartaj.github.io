@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none;
+  text-underline: none; }
+
+header {
+  width: 100%;
+  height: 100px; }
+
+.headerWrap {
+  width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; }
+
+.logoWrapper img {
+  width: 100px; }
+
+.contactsHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+  .contactsHeader a {
+    color: #516a4a;
+    border: 1px solid #516a4a;
+    border-radius: 20px;
+    padding: 5px; }
+  .contactsHeader a:hover {
+    text-decoration: none; }
+
+.navWrap {
+  height: 100%;
+  margin: 0 auto; }
+  .navWrap ul {
+    width: 700px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .navWrap ul li a {
+      color: #516a4a; }
+    .navWrap ul li a:hover {
+      text-decoration: none; }
+
+.slider {
+  width: 100%;
+  background: #0b2e13; }
+
+.sliderWrap {
+  width: 1170px;
+  margin: 0 auto; }
+
+.carousel-inner div img {
+  height: 400px; }
+
+.comments {
+  width: 100%; }
+
+.commentsWrap {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 20px; }
+
+.goods {
+  width: 100%; }
+
+.goodsWrap {
+  width: 1170px;
+  margin: 0 auto;
+  position: relative; }
+
+.titleGoods {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0 0 0; }
+  .titleGoods h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px; }
+
+.itemWrap {
+  width: 1170px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  position: relative;
+  overflow: hidden;
+  margin: 30px 0 0 0; }
+  .itemWrap div {
+    position: absolute;
+    width: 370px;
+    height: 100%;
+    font-size: 60px;
+    text-align: center;
+    background: #f4f5f7;
+    border-radius: 20px; }
+    .itemWrap div img {
+      width: 370px;
+      height: 250px;
+      border-radius: 20px 20px 0 0; }
+    .itemWrap div p {
+      height: 105px;
+      overflow: hidden;
+      margin: 10px 0 0 0;
+      font-size: 18px; }
+
+#prevItemINGoods {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 6; }
+
+#prevItemINGoods:hover {
+  cursor: pointer; }
+
+#nextItemINGoods {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 6; }
+
+#nextItemINGoods:hover {
+  cursor: pointer; }
+
+.item1 {
+  left: 0; }
+
+.item2 {
+  left: 400px; }
+
+.item3 {
+  left: 800px; }
+
+.item4 {
+  left: 1170px; }
+
+.item5 {
+  left: 1170px; }
+
+.item6 {
+  left: 1170px; }
+
+.bigSizeGood {
+  width: 1170px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 0;
+  z-index: 5; }
+  .bigSizeGood img {
+    width: 50%;
+    height: 80%; }
+  .bigSizeGood p {
+    width: 40%;
+    color: white; }
+
+/*# sourceMappingURL=main.css.map */
